@@ -1,0 +1,2 @@
+Fecha_Sol	No.Solicitud	CLI_Nom	CLI_Dir01	CLI_Dir02	CLI_CP	CLI_Tel01	CLI_Tel02	CLI_Email	CLI_Contacto	Rec_Fecha	Rec_Horario	Rec_Urgente	Rec_Observaciones	Des_CodCLI
+202203231950	11123456	Optica Pepito	Av. Principal, 5	Bajo Izq	46025	960000000	555666777	opticapepito@gmail.com	Manuel Perez	20220324	Tarde	false	Llamar al timbre	0468025
