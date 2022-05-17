@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: whitesmoke;
+  width: 400px;
+  max-width: 100%;
+  padding: 0;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border:solid 2px lightseagreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  display: flexbox;
+  flex-direction: column;
+  color: silver;
+  
+}
+
+#cabeceramodal {
+  background-color: lightseagreen;
+  border: solid 1px lightseagreen;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 8px;
+  font-size: 16px;
+}
+
+.modal div input {
+  font-size: 16px;
+  height: 30px;
+  color: lightseagreen;
+  border: solid 1px lightseagreen;
+}
