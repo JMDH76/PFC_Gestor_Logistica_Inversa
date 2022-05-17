@@ -26,18 +26,19 @@
   padding: 0;
   padding-bottom: 20px;
   border-radius: 5px;
-  border:solid 2px lightseagreen;
+  border: solid 1px orange;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   text-align: center;
   display: flexbox;
   flex-direction: column;
   color: silver;
   
+  
 }
 
 #cabeceramodal {
   background-color: lightseagreen;
-  border: solid 1px lightseagreen;
+  border: solid 1px orange;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   height: 30px;

@@ -77,9 +77,11 @@ nav {
   margin-right: auto;
   margin-bottom: 30px;
   width: 100%;
+  font-weight: 600;
   background-color: lightseagreen;
+  border-bottom: solid 2px orange;
   /*  border: solid 1px black; */
-  /* text-shadow: 1px 1px rgb(9, 51, 16) */
+  /* text-shadow: 1px 1px rgb(178, 187, 180) */
 }
 
 #menu {
@@ -102,6 +104,7 @@ ol {
 .navegador > li {
   float: left;
   flex: 1;
+ /*  border-bottom: solid 2px black; */
 }
 
 .navegador li a {
@@ -124,7 +127,7 @@ ol {
 .navegador li ul {
   display: none;
   position: absolute;
-  min-width: 170px;
+  min-width: 170px;  
 }
 
 .navegador li:hover > ul {
@@ -133,12 +136,13 @@ ol {
 
 .navegador li ul li {
   position: relative;
-  border: solid 1px white;
+  border: solid 2px white;
+  /* border-bottom: solid 2px white; */
 }
 
 .navegador li ul li ul li {
   right: -170px;
-  top: -37px;
+  top: -38px;
   max-width: 250px;
 }
 .alingmenu {
@@ -165,11 +169,11 @@ section {
   color: lightseagreen;
   align-items: center;
 }
-#limpiarformulario{
-    visibility: hidden;
+#limpiarformulario {
+  visibility: hidden;
 }
 #salirformulario {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /* FORMULARIO */
@@ -360,11 +364,12 @@ footer {
 }
 .underconstruction {
   height: 400px;
+  text-shadow: 2px 2px 5px red;
 }
 
-#contenedor-obras{
-    margin-left: auto;
-    margin-right: auto;
+#contenedor-obras {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 textarea {
