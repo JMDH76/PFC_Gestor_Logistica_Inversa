@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylecss/styles.css">
+    <link rel="stylesheet" href="../stylecss/ventanamodal.css">
+    <title>pickups</title>
+</head>
+
+<body>
+
+    <header>
+        <div id='encabezado'>
+            <div id='nombreapp'>
+                <h1>GESTIÓN DE DEVOLUCIONES</h1>
+            </div>
+            <div id='nombreformulario'>
+                <h2 id="titulopagina">ÁREA DE DISTRIBUCIÓN</h2>
+            </div>
+            <div id="clock">
+                <div id="digitalclock"> </div>
+                <div id="date"></div>
+                <script src="../src/clock.js"></script>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div id="menu">
+            <ul class="navegador">
+                <li><a class="alingmenu" href="../index.html">INICIO</a></li>
+                <li><a href="">ÁREA DISTRIBUCIÓN</a>
+                    <ul class="submenu">
+                        <li><a href="">Gestión de recogidas</a>
+                            <ul>
+                                <li><a href="../forms/pickups.html">Solicitud de recogida</a></li>
+                                <li><a href="../forms/receptions.html">Recepción de mercancía</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Expediciones</a>
+                            <ul>
+                                <li><a href="../forms/deliverynote.html">Generar albarán</a></li>
+                                <li><a href="../forms/expeditions.html">Entrada en Expediciones</a></li>
+                                <li><a href="../forms/transportfile.html">Generar Fichero transportista</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../forms/returns.html">GESTIÓN DEVOLUCIONES</a></li>
+                <li><a href="../forms/quality.html">CONTROL CALIDAD</a></li>
+                <li><a href="">GESTIÓN MEDIOAMBIENTAL</a>
+                    <ul>
+                        <li><a href="../forms/enviromentmng.html">Gestión de residuos</a></li>
+                        <li><a href="../forms/wasteremoval.html">Solicitud recogida residuos</a></li>
+                    </ul>
+                </li>
+                <li><a class="alingmenu" href="../forms/warehouse.html">ALMACÉN</a></li>
+                <li><a href="">OTROS DEPARTAMENTOS</a>
+                    <ul>
+                        <li><a href="../forms/administration.html">Administración</a></li>
+                        <li><a href="../forms/purchasing.html">Compras</a></li>
+                        <li><a href="../forms/generalmangement.html">Dirección General</a></li>
+                        <li><a href="../forms/financial.html">Financiero</a></li>
+                        <li><a href="../forms/maintenance.html">Mantenimiento</a></li>
+                        <li><a href="../forms/marketing.html">Marketing</a></li>
+                        <li><a href="../forms/production.html">Producción</a></li>
+                        <li><a href="../forms/humanresources.html">Recursos Humanos</a></li>
+                        <li><a href="../forms/generalservices.html">Servicios Generales</a></li>
+                        <li><a href="../forms/sales.html">Ventas</a></li>
+                    </ul>
+                </li>
+                <li><a class="alingmenu" href="../forms/tracking.html">CONSULTAS</a>
+                    <ul>
+                        <li><a href="../forms/tracking.html">Seguimiento de devoluciones</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <selectio>
+            <!-- FORMULARIO -->
+            <form id="contenedor-formulario">
+
+                <div id="titulo-formulario">
+                    <h3>Solicitud de recogida</h3>
+                </div>
+
+                <div class="subtitulo-formulario">
+                    <h4>Datos del cliente</h4>
+                </div>
+
+                <div class="contenedor-doble">
+                    <input type="text" id="codigo-cliente" class="campos-formulario" placeholder="Cc." />
+                    <input type="text" id="nombre-cliente" class="campos-formulario" placeholder="Nombre del cliente" />
+                </div>
+                <div class="contenedor-simple">
+                    <input type="text" id="direccion-cliente" class="campos-formulario"
+                        placeholder="Dirección del cliente" />
+                </div>
+                <div class="contenedor-simple">
+                    <input type="text" id="direccion-cliente2" class="campos-formulario"
+                        placeholder="Dirección del cliente 2" />
+                </div>
+                <div class="contenedor-doble">
+                    <input type="text" id="zip-cliente" class="campos-formulario" placeholder="CP" />
+                    <input type="text" id="poblacion-cliente" class="campos-formulario" placeholder="Población" />
+                </div>
+                <div class="contenedor-simple">
+                    <input type="email" id="email-cliente" class="campos-formulario"
+                        placeholder="Dirección del cliente" />
+                </div>
+                <div class="contenedor-doble">
+                    <input type="text" id="tlf1-cliente" class="campos-formulario" placeholder="Teléfono1" />
+                    <input type="text" id="tlf2-cliente" class="campos-formulario" placeholder="Telefono2" />
+                </div>
+                <div class="subtitulo-formulario">
+                    <h4 class="subtitulo-formulario">Persona de contacto</h4>
+                </div>
+                <div class="contenedor-simple">
+                    <input type="text" id="contacto-cliente" class="campos-formulario"
+                        placeholder="Persona de contacto" />
+                </div>
+
+                <div class="contenedor-doble">
+                    <div class="subtitulo-formulario2">
+                        <h4 class=>Nº Pedido asociado</h4>
+                    </div>
+                    <div></div>
+                    <input type="text" id="pedido-asociado" class="campos-formulario" placeholder="Pedido asociado" />
+                </div>
+            </form>
+
+
+        </selectio>
+    </main>
+
+    <footer id="footer">
+        <div>
+            <script src="../src/footertext.js"></script>
+        </div>
+    </footer>
+
+</body>
+
+</html>
